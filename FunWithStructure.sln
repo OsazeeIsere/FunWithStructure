@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithStructure", "FunWithStructure\FunWithStructure.csproj", "{72CB8A9A-19D4-4D54-A983-BD90B7FB2B9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72CB8A9A-19D4-4D54-A983-BD90B7FB2B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CB8A9A-19D4-4D54-A983-BD90B7FB2B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CB8A9A-19D4-4D54-A983-BD90B7FB2B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CB8A9A-19D4-4D54-A983-BD90B7FB2B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E79304D-19B6-4FA6-BD7C-23BFA649C7E2}
+	EndGlobalSection
+EndGlobal
