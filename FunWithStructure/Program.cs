@@ -40,6 +40,8 @@ namespace FunWithStructure
                 x = xPos;
                 y = yPos;
             }
+
+            public (int XPos, int YPos) Deconstruct() => (x, y);
         }
         static void Main(string[] args)
         {
@@ -57,8 +59,16 @@ namespace FunWithStructure
             myPoint.Display();
 
             //calling custom Constructor
-            myPoint.CustomConstructor(50, 60);
+            myPoint.CustomConstructor(50,60);
             myPoint.Display();
+
+            //Deconstructing Tuples
+            Point p = new Point();
+            p.CustomConstructor(7, 5);
+            var pointValues = p.Deconstruct();
+            Console.WriteLine($"X is: {pointValues.XPos}");
+            Console.WriteLine($"Y is:{pointValues.YPos}");
+
 
             Console.ReadLine();
 
